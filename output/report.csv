@@ -1,0 +1,168 @@
+﻿source,indicator_type,indicator,severity_or_score,details,action
+suricata,src_ip,10.128.0.221,14.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.128.0.241,13.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.128.0.215,9.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.128.0.207,8.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.128.0.235,6.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.240.105.57,6.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,src_ip,10.128.0.201,6.0,Suspicious IP by alert frequency (>= 5 alerts),simulated_block
+suricata,alert_signature,ET SCAN Potential SSH Scan,2.0,0.0.0.0 -> 10.47.8.150,alert
+suricata,alert_signature,ET MALWARE Spyware Related User-Agent (UtilMind HTTPGet),1.0,10.47.42.68 -> 64.135.77.30,alert
+suricata,alert_signature,ET SCAN Potential SSH Scan OUTBOUND,2.0,10.47.5.154 -> 192.16.10.154,alert
+suricata,alert_signature,ET POLICY AOL Toolbar User-Agent (AOLToolbar),1.0,10.47.42.68 -> 66.235.134.197,alert
+suricata,alert_signature,ET POLICY Outgoing Basic Auth Base64 HTTP Password detected unencrypted,1.0,10.128.0.244 -> 10.47.1.58,alert
+suricata,alert_signature,ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (15),1.0,10.128.0.218 -> 10.47.4.142,alert
+suricata,alert_signature,ET NETBIOS Microsoft Windows NETAPI Stack Overflow Inbound - MS08-067 (25),1.0,10.128.0.218 -> 10.47.4.142,alert
+suricata,alert_signature,ET TROJAN Suspicious Malformed Double Accept Header,1.0,10.47.42.68 -> 64.135.77.30,alert
+suricata,alert_signature,ET POLICY IP Check Domain (whatismyip in HTTP Host),2.0,10.47.5.153 -> 104.27.193.92,alert
+suricata,alert_signature,ET POLICY TeamViewer Dyngate User-Agent,1.0,10.47.1.208 -> 162.220.223.28,alert
+suricata,alert_signature,ET SCAN Non-Allowed Host Tried to Connect to MySQL Server,2.0,10.47.8.142 -> 10.128.0.215,alert
+suricata,alert_signature,ET POLICY User-Agent (Launcher),1.0,10.47.23.81 -> 54.192.86.116,alert
+suricata,alert_signature,ET POLICY User-Agent (NSIS_Inetc (Mozilla)) - Sometimes used by hostile installers,1.0,10.47.45.68 -> 54.166.207.180,alert
+suricata,alert_signature,ET POLICY DNS Query For XXX Adult Site Top Level Domain,1.0,10.47.7.153 -> 192.203.230.10,alert
+suricata,alert_signature,ET ATTACK_RESPONSE Windows 7 CMD Shell from Local System,1.0,10.47.8.152 -> 10.128.0.241,alert
+suricata,alert_signature,ET POLICY Microsoft user-agent automated process response to automated request,1.0,23.75.4.57 -> 10.47.5.152,alert
+suricata,alert_signature,ET POLICY Cleartext WordPress Login,1.0,10.47.6.154 -> 10.47.26.186,alert
+suricata,alert_signature,ET POLICY Http Client Body contains passwd= in cleartext,1.0,10.128.0.235 -> 10.47.4.1,alert
+suricata,alert_signature,ET POLICY Http Client Body contains pass= in cleartext,1.0,10.128.0.241 -> 10.47.3.1,alert
+suricata,alert_signature,ET POLICY Http Client Body contains pwd= in cleartext,1.0,10.128.0.235 -> 10.47.4.1,alert
+suricata,alert_signature,ET POLICY curl User-Agent Outbound,2.0,10.10.11.2 -> 104.25.36.116,alert
+suricata,alert_signature,ET POLICY libwww-perl User-Agent,2.0,10.47.8.155 -> 216.105.38.10,alert
+suricata,alert_signature,ET POLICY Python-urllib/ Suspicious User Agent,2.0,10.47.6.154 -> 91.189.91.23,alert
+suricata,alert_signature,ET SCAN Nessus FTP Scan detected (ftp_anonymous.nasl),2.0,10.240.105.57 -> 10.47.24.80,alert
+suricata,alert_signature,ET POLICY Executable served from Amazon S3,2.0,52.85.85.68 -> 10.47.1.152,alert
+suricata,alert_signature,ET POLICY GNU/Linux YUM User-Agent Outbound likely related to package management,1.0,10.47.1.101 -> 85.236.43.108,alert
+suricata,alert_signature,ET DNS Query for .su TLD (Soviet Union) Often Malware Related,2.0,10.47.8.10 -> 10.0.0.100,alert
+suricata,alert_signature,ET POLICY Outdated Flash Version M1,1.0,10.47.41.68 -> 64.135.77.30,alert
+suricata,alert_signature,ET POLICY DNS Query for TOR Hidden Domain .onion Accessible Via TOR,1.0,10.47.5.156 -> 10.10.5.1,alert
+suricata,alert_signature,ET SNMP Attempt to retrieve Cisco Config via TFTP (CISCO-CONFIG-COPY),1.0,10.128.0.212 -> 10.47.3.150,alert
+suricata,alert_signature,ET WEB_SERVER ColdFusion adminapi access,1.0,10.128.0.241 -> 10.47.45.10,alert
+suricata,alert_signature,ET WEB_SERVER ColdFusion administrator access,1.0,10.128.0.221 -> 10.47.1.59,alert
+suricata,alert_signature,ET DNS Query to a *.pw domain - Likely Hostile,2.0,10.47.23.25 -> 193.0.14.129,alert
+suricata,alert_signature,ET WEB_SERVER  ColdFusion path disclosure to get the absolute path,1.0,10.128.0.241 -> 10.47.45.10,alert
+suricata,alert_signature,ET POLICY Unsupported/Fake Windows NT Version 5.0,1.0,10.47.45.200 -> 66.211.185.82,alert
+suricata,alert_signature,ET ATTACK_RESPONSE Net User Command Response,1.0,10.47.4.153 -> 10.128.0.214,alert
+suricata,alert_signature,ET TROJAN Generic - POST To .php w/Extended ASCII Characters,1.0,10.47.6.59 -> 104.225.222.243,alert
+suricata,alert_signature,ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x03,2.0,10.240.105.57 -> 10.47.3.100,alert
+suricata,alert_signature,ET EXPLOIT Netgear passwordrecovered.cgi attempt,1.0,10.128.0.241 -> 10.47.2.156,alert
+suricata,alert_signature,ET WEB_CLIENT Possible BeEF Module in use,1.0,206.251.244.225 -> 10.47.23.82,alert
+suricata,alert_signature,ET WORM TheMoon.linksys.router 1,1.0,10.128.0.221 -> 10.47.1.59,alert
+suricata,alert_signature,ET CURRENT_EVENTS Malformed HeartBeat Request,2.0,10.128.0.221 -> 10.47.1.1,alert
+suricata,alert_signature,ET CURRENT_EVENTS Malformed HeartBeat Response,2.0,10.47.3.142 -> 10.240.105.57,alert
+suricata,alert_signature,ET CURRENT_EVENTS Possible OpenSSL HeartBleed Large HeartBeat Response (Client Init Vuln Server),2.0,10.47.3.142 -> 10.240.105.57,alert
+suricata,alert_signature,ET CURRENT_EVENTS Possible TLS HeartBleed Unencrypted Request Method 3 (Inbound to Common SSL Port),2.0,10.128.0.221 -> 10.47.1.1,alert
+suricata,alert_signature,ET ATTACK_RESPONSE Possible  MS CMD Shell opened on local system 2,1.0,10.47.8.152 -> 10.128.0.241,alert
+suricata,alert_signature,ET POLICY PE EXE or DLL Windows file download HTTP,1.0,13.107.4.50 -> 10.47.1.10,alert
+suricata,alert_signature,ET DOS Possible NTP DDoS Inbound Frequent Un-Authed GET_RESTRICT Requests IMPL 0x03,2.0,10.128.18.12 -> 10.47.6.10,alert
+suricata,alert_signature,ET DOS Possible SSDP Amplification Scan in Progress,2.0,10.128.0.205 -> 10.47.22.186,alert
+suricata,alert_signature,ET WEB_SERVER Possible CVE-2014-6271 Attempt in Headers,1.0,10.128.0.241 -> 10.47.3.1,alert
+suricata,alert_signature,ET WEB_SERVER Possible CVE-2014-6271 Attempt in HTTP Cookie,1.0,10.128.0.221 -> 10.10.2.2,alert
+suricata,alert_signature,ET POLICY Executable and linking format (ELF) file download Over HTTP,1.0,68.142.107.25 -> 10.47.22.55,alert
+suricata,alert_signature,ET EXPLOIT Possible Pure-FTPd CVE-2014-6271 attempt,1.0,10.128.0.207 -> 10.47.27.80,alert
+suricata,alert_signature,ET POLICY SSLv3 inbound connection to server vulnerable to POODLE attack,1.0,10.47.8.208 -> 10.128.0.215,alert
+suricata,alert_signature,ET EXPLOIT Possible CVE-2014-3704 Drupal SQLi attempt URLENCODE 1,1.0,10.128.0.241 -> 10.47.45.10,alert
+suricata,alert_signature,ET EXPLOIT Possible CVE-2014-3704 Drupal SQLi attempt URLENCODE 2,1.0,10.128.0.241 -> 10.47.1.20,alert
+suricata,alert_signature,ET POLICY Possible IP Check api.ipify.org,1.0,23.23.170.235 -> 10.47.6.100,alert
+suricata,alert_signature,ET EXPLOIT Possible GoldenPac Priv Esc in-use,1.0,10.128.0.201 -> 10.47.8.10,alert
+suricata,alert_signature,ET EXPLOIT FREAK Weak Export Suite From Server (CVE-2015-0204),2.0,10.47.24.55 -> 10.240.105.57,alert
+suricata,alert_signature,ET POLICY Possible External IP Lookup ipinfo.io,1.0,10.47.8.150 -> 216.239.36.21,alert
+suricata,alert_signature,ET EXPLOIT D-Link Devices Home Network Administration Protocol Command Execution,1.0,10.128.0.241 -> 10.47.3.1,alert
+suricata,alert_signature,ET WEB_SERVER Possible IIS Integer Overflow DoS (CVE-2015-1635),1.0,10.240.105.57 -> 10.47.3.218,alert
+suricata,alert_signature,ET WEB_SERVER Possible CVE-2014-6271 Attempt,1.0,10.128.0.241 -> 10.47.3.1,alert
+suricata,alert_signature,ET CURRENT_EVENTS SUSPICIOUS Firesale gTLD EXE DL with no Referer June 13 2016,1.0,10.47.8.152 -> 104.28.1.171,alert
+suricata,alert_signature,ET EXPLOIT NETGEAR WNR2000v5 hidden_lang_avi Stack Overflow (CVE-2016-10174),1.0,10.128.0.241 -> 10.47.8.20,alert
+suricata,alert_signature,ET EXPLOIT Cisco Catalyst Remote Code Execution (CVE-2017-3881),1.0,10.128.0.218 -> 10.47.6.150,alert
+suricata,alert_signature,ET EXPLOIT Possible DOUBLEPULSAR Beacon Response,1.0,10.47.8.151 -> 10.128.0.207,alert
+suricata,alert_signature,ET EXPLOIT Possible ETERNALBLUE MS17-010 Heap Spray,1.0,10.128.0.218 -> 10.47.25.81,alert
+suricata,alert_signature,ET EXPLOIT Possible ETERNALBLUE MS17-010 Echo Response,1.0,10.47.1.10 -> 10.128.0.207,alert
+suricata,alert_signature,ET EXPLOIT ETERNALBLUE Exploit M2 MS17-010,1.0,10.128.0.210 -> 10.47.3.218,alert
+suricata,alert_signature,ET EXPLOIT Samba Arbitrary Module Loading Vulnerability (.so file write to share) (CVE-2017-7494),1.0,10.128.0.207 -> 10.47.41.32,alert
+suricata,alert_signature,ET EXPLOIT Samba Arbitrary Module Loading Vulnerability (NT Create AndX .so) (CVE-2017-7494),1.0,10.128.0.207 -> 10.47.41.32,alert
+suricata,alert_signature,ET SCAN Possible Nmap User-Agent Observed,1.0,10.128.0.215 -> 10.47.8.1,alert
+suricata,alert_signature,ET POLICY Outdated Flash Version M2,1.0,10.47.5.151 -> 172.217.5.74,alert
+suricata,alert_signature,ET CURRENT_EVENTS SUSPICIOUS Possible CVE-2017-0199 IE7/NoCookie/Referer HTA dl,1.0,10.47.25.25 -> 204.79.197.200,alert
+suricata,alert_signature,ET EXPLOIT Apache Struts 2 REST Plugin XStream RCE (ProcessBuilder),1.0,10.128.0.245 -> 10.47.5.142,alert
+suricata,alert_signature,ET EXPLOIT Apache Struts 2 REST Plugin (ProcessBuilder),1.0,10.128.0.207 -> 10.47.27.80,alert
+suricata,alert_signature,ET POLICY Request for Coinhive Browser Monero Miner M2,1.0,217.182.164.10 -> 10.47.2.153,alert
+suricata,alert_signature,ET POLICY Possible External IP Lookup SSL Cert Observed (ipinfo.io),1.0,216.239.34.21 -> 10.47.2.153,alert
+suricata,alert_signature,ET POLICY Possible External IP Lookup Domain Observed in SNI (ipinfo. io),1.0,10.47.2.153 -> 216.239.34.21,alert
+suricata,alert_signature,ET CURRENT_EVENTS Observed Coin-Hive In Browser Mining Domain (coin-hive .com in TLS SNI),1.0,10.47.2.153 -> 217.182.164.10,alert
+suricata,alert_signature,ET CURRENT_EVENTS Observed Malicious SSL Cert (Coin-Hive In Browser Mining),1.0,217.182.164.10 -> 10.47.2.153,alert
+suricata,alert_signature,ET MALWARE Lavasoft PUA/Adware Client Install,1.0,10.47.1.155 -> 104.17.60.19,alert
+suricata,alert_signature,ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (MSF style),1.0,10.128.0.235 -> 10.47.4.151,alert
+suricata,alert_signature,ET EXPLOIT ETERNALBLUE Probe Vulnerable System Response MS17-010,1.0,10.47.4.151 -> 10.128.0.235,alert
+suricata,alert_signature,ET POLICY SMB Executable File Transfer,2.0,10.128.0.236 -> 10.47.3.142,alert
+suricata,alert_signature,ET POLICY SMB NT Create AndX Request For an Executable File,2.0,10.150.0.20 -> 10.47.27.25,alert
+suricata,alert_signature,ET POLICY SMB2 NT Create AndX Request For an Executable File,2.0,10.128.0.215 -> 10.47.8.153,alert
+suricata,alert_signature,ET POLICY SMB2 NT Create AndX Request For a Powershell .ps1 File,2.0,10.128.0.100 -> 10.47.41.10,alert
+suricata,alert_signature,ET POLICY SMB2 NT Create AndX Request For a .bat File,2.0,10.47.44.68 -> 10.128.0.101,alert
+suricata,alert_signature,ET POLICY SMB2 NT Create AndX Request For a DLL File - Possible Lateral Movement,2.0,10.128.0.215 -> 10.47.8.208,alert
+suricata,alert_signature,ET POLICY SMB2 NT Create AndX Request For a .sys File - Possible Lateral Movement,2.0,10.128.0.215 -> 10.47.8.153,alert
+suricata,alert_signature,ET POLICY SMB Remote AT Scheduled Job Create Request - Possible Lateral Movement,2.0,10.128.0.210 -> 10.47.28.81,alert
+suricata,alert_signature,ET POLICY SMB2 Remote AT Scheduled Job Create Request,2.0,10.128.0.201 -> 10.47.3.10,alert
+suricata,alert_signature,ET POLICY SMB Remote AT Scheduled Job Pipe Creation,2.0,10.47.3.10 -> 10.128.0.201,alert
+suricata,alert_signature,ET POLICY Powershell Activity Over SMB - Likely Lateral Movement,1.0,10.128.0.201 -> 10.47.3.10,alert
+suricata,alert_signature,ET POLICY Powershell Command With Hidden Window Argument Over SMB - Likely Lateral Movement,1.0,10.128.0.201 -> 10.47.3.10,alert
+suricata,alert_signature,ET POLICY Powershell Command With Encoded Argument Over SMB - Likely Lateral Movement,1.0,10.128.0.236 -> 10.47.3.150,alert
+suricata,alert_signature,ET POLICY Powershell Command With No Profile Argument Over SMB - Likely Lateral Movement,1.0,10.128.0.201 -> 10.47.3.10,alert
+suricata,alert_signature,ET POLICY Powershell Command With Execution Bypass Argument Over SMB - Likely Lateral Movement,1.0,10.128.0.236 -> 10.47.3.150,alert
+suricata,alert_signature,ET POLICY Powershell Command With NonInteractive Argument Over SMB - Likely Lateral Movement,1.0,10.128.0.201 -> 10.47.3.10,alert
+suricata,alert_signature,ET POLICY WMIC WMI Request Over SMB - Likely Lateral Movement,1.0,10.128.0.236 -> 10.47.22.25,alert
+suricata,alert_signature,ET EXPLOIT Possible ETERNALBLUE Probe MS17-010 (Generic Flags),1.0,10.128.0.235 -> 10.47.4.151,alert
+suricata,alert_signature,ET EXPLOIT Linksys E-Series Device RCE Attempt,1.0,10.128.0.207 -> 10.47.41.40,alert
+suricata,alert_signature,GPL ATTACK_RESPONSE id check returned root,2.0,10.47.24.55 -> 10.128.0.227,alert
+suricata,alert_signature,ET CNC Zeus Tracker Reported CnC Server group 11,1.0,10.47.46.200 -> 198.54.117.200,alert
+suricata,alert_signature,ET TOR Known Tor Exit Node Traffic group 50,2.0,204.11.50.131 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Exit Node Traffic group 67,2.0,5.9.158.75 -> 10.47.24.170,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 50,2.0,204.11.50.131 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 67,2.0,5.9.158.75 -> 10.47.24.170,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 91,2.0,104.238.188.98 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 115,2.0,128.199.55.207 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 120,2.0,131.188.40.189 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 122,2.0,134.119.3.164 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 141,2.0,144.76.14.145 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 143,2.0,144.76.96.7 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 149,2.0,148.251.221.163 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 155,2.0,154.35.175.225 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 180,2.0,171.25.193.9 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 197,2.0,176.31.26.128 -> 10.47.24.25,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 222,2.0,185.100.84.212 -> 10.47.46.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 223,2.0,185.106.154.119 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 226,2.0,185.13.39.197 -> 10.47.24.80,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 236,2.0,185.227.82.56 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 241,2.0,185.35.202.221 -> 10.47.21.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 250,2.0,188.138.33.233 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 255,2.0,188.213.170.104 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 258,2.0,188.40.128.246 -> 10.47.21.82,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 266,2.0,192.87.28.82 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 269,2.0,193.11.114.45 -> 10.47.24.82,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 271,2.0,193.23.244.244 -> 10.47.24.80,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 273,2.0,193.35.52.53 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 274,2.0,194.109.206.212 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 285,2.0,198.27.69.201 -> 10.47.2.155,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 289,2.0,199.58.81.140 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 336,2.0,212.47.240.10 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 338,2.0,212.51.134.123 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 339,2.0,212.74.233.18 -> 10.47.46.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 354,2.0,217.79.179.177 -> 10.47.24.25,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 433,2.0,37.221.162.226 -> 10.47.21.82,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 480,2.0,51.15.76.56 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 485,2.0,51.255.198.77 -> 10.47.24.80,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 493,2.0,5.199.142.236 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 497,2.0,5.39.33.178 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 501,2.0,54.37.73.111 -> 10.47.21.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 504,2.0,5.79.68.161 -> 10.47.23.81,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 509,2.0,62.138.7.171 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 553,2.0,78.46.249.71 -> 10.47.8.151,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 580,2.0,81.7.11.33 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 594,2.0,83.212.99.68 -> 10.47.44.68,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 611,2.0,85.255.1.158 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 616,2.0,86.59.21.38 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 630,2.0,88.99.217.110 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 631,2.0,88.99.70.107 -> 10.47.44.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 633,2.0,89.163.225.145 -> 10.47.43.10,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 634,2.0,89.221.214.243 -> 10.47.21.82,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 639,2.0,89.46.100.71 -> 10.47.24.80,alert
+suricata,alert_signature,ET TOR Known Tor Relay/Router (Not Exit) Node Traffic group 666,2.0,93.186.200.68 -> 10.47.44.10,alert
+vulners,cve,CVELIST:CVE-2025-10585,0.0,CVE-2025-10585,monitor
+vulners,cve,CVELIST:CVE-2025-7775,9.2,CVE-2025-7775 Memory overflow vulnerability leading to Remote Code Execution and/or Denial of Service,notify_admin
